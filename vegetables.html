@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fresh organic vegetables available for purchase.">
+    <meta name="keywords" content="vegetables, organic, e-commerce, fresh produce">
+    <title>Vegetables - PureHarvest</title>
+    <link rel="stylesheet" href="main_page.css">
+</head>
+<body>
+
+    <header>
+        <h1>PureHarvest: Vegetables</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products..." id="searchInput">
+            <button type="button" onclick="searchProducts()">Search</button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="main_page.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="vegetables.html">Shop Vegetables</a>
+    </nav>
+
+    <div class="container">
+        <h2>Fresh Vegetables</h2>
+        
+        <div class="product" id="product1">
+            <img src="images/carrot.jpeg" alt="Carrot">
+            <div class="product-content">
+                <h3>Carrot</h3>
+                <p>Crunchy and fresh organic carrots.</p>
+                <div class="price">Rs 100</div>
+                <button class="add-to-cart" onclick="addToCart('Carrot', 100)">Add to Cart</button>
+            </div>
+        </div>
+        
+        <div class="product" id="product2">
+            <img src="images/broccoli.jpeg" alt="Broccoli">
+            <div class="product-content">
+                <h3>Broccoli</h3>
+                <p>Fresh organic broccoli, rich in nutrients.</p>
+                <div class="price">Rs 150</div>
+                <button class="add-to-cart" onclick="addToCart('Broccoli', 150)">Add to Cart</button>
+            </div>
+        </div>
+        
+        <div class="product" id="product3">
+            <img src="images/tomato.jpeg" alt="Tomato">
+            <div class="product-content">
+                <h3>Tomato</h3>
+                <p>Juicy and ripe organic tomatoes.</p>
+                <div class="price">Rs 80</div>
+                <button class="add-to-cart" onclick="addToCart('Tomato', 80)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product" id="product4">
+            <img src="images/spinach.jpeg" alt="Spinach">
+            <div class="product-content">
+                <h3>Spinach</h3>
+                <p>Fresh and healthy organic spinach leaves.</p>
+                <div class="price">Rs 60</div>
+                <button class="add-to-cart" onclick="addToCart('Spinach', 60)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product" id="product5">
+            <img src="images/potato.jpeg" alt="Potato">
+            <div class="product-content">
+                <h3>Potato</h3>
+                <p>Fresh organic potatoes, perfect for any dish.</p>
+                <div class="price">Rs 50</div>
+                <button class="add-to-cart" onclick="addToCart('Potato', 50)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PureHarvest | All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="main_page.js"></script>
+
+</body>
+</html>
